@@ -1,0 +1,6 @@
+dos2unix namefile.sh
+sed -i 's/\r$//' namefile.sh
+tr -d '\r' < namefile.sh > namefile.sh
+mv namefile.sh namefile.sh
+bash namefile.sh
+./namefile.sh
